@@ -411,7 +411,7 @@ export default function CinematicExperience({ initialFog = 0 }) {
         {muted ? "Sangeet off" : "Sangeet on"}
       </button>
       <button className="menuButton" onClick={() => setGuideOpen(true)} aria-label="Menu">
-        Menu
+        Yahan dekho
       </button>
       <MemoryModal memory={memory} onClose={() => setMemory(null)} />
       <GuideModal show={guideOpen} onClose={() => setGuideOpen(false)} />
